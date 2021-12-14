@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Bootstrap 5 with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<style>
+		.fakeimg {
+		height: 200px;
+		background: #aaa;
+		}
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+
+<body>
+
+<body style = "background-color:#222220;">
+
+<!-- Adds a navigation bar to the page-->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<!-- This adds the site home button -->
+<div class="container-fluid">
+    <a class="navbar-brand" href="index">Code K-12</a>
+
+
+
+  
+ <ul class="navbar-nav">
+
+<!-- Example split danger button -->
+<div class="btn-group">
+  <a href= "lesson_menu" type="button" class="btn btn-info btn-outline-dark ">Lessons</a>
+  <button type="button" class="btn btn-info btn-outline-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="lesson1">Lesson 1</a></li>
+    <li><a class="dropdown-item" href="lesson2">Lesson 2</a></li>
+    <li><a class="dropdown-item" href="lesson3">Lesson 3</a></li>
+  </ul>
+</div>
+
+
+      <li class="nav-item">
+        <a type="button" class="btn btn-info btn-outline-dark" href="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a type ="button" class="btn btn-info btn-outline-dark" href="#">Sign in</a>
+      </li>
+    </ul>
+      </div>
+</nav>
+
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px;">
+
+	<div class = "row">
+    	    <p class ="fs-3 text-center" style="color:white;">Lesson 1, Part 2</p>
+            <p class ="fs-4 text-center" style="color:white;">Basic .java file layout</p>
+    </div>
+</div>
+
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px; ">
+<p class ="fs-3 text-center" style="color:white;">
+Now that we have discussed what Java is, lets begin our dive into how to actually create a program in Java!
+<br>
+<br>
+We will start with a simple program that says "Hello World!" to the user.
+<br>
+<br>
+To do this we need to first create the class of the java file.<br>
+Think of a class as a box. This box holds all ideas relating to a certain topic or goal. For example, with the class for this project we will include everything needed to print "Hello World!" to the user. But the topic of the box can vary to just about anything, from describing a car, to the information of a bank account, and much much more. 
+<br>
+<br>
+A basic class (and the class for this project) looks something like this:
+</p>
+
+<center><image src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/sampleClass.PNG?raw=true" style="width:350px; height:220px;" /></center>
+
+<p class ="fs-3 text-center" style="color:white;">
+As you can see the syntax for declaring a class is as follows:<br>
+public class ClassName
+
+<br><br>
+
+Don't worry about what the "public" stands for right now we will cover that in later lessons. But the word "class" lets java know that we are declaring a class. Then we simply put what we want the name of the class to be after. With our example the name of the class is "HelloWorld"
+
+<br><br>
+
+With classes we want the name of the .java file itself to match the name of the class in it, so keep that in mind
+
+<br><br>
+
+You may have also noticed the pair of curly braces {}. We will refer to the area between these two braces as the body of the class.
+
+<br><br>
+
+A class's body contains all of the code required for that class to operate. So for our example we would put all of the code that prints out "Hello World" inside of the curly braces. 
+
+
+<br><br>
+
+Now inside of our "HelloWorld" class we will put method named "main" 
+</p>
+
+<center><image src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/mainMethod.PNG?raw=true" style="width:450px; height:300px;" /></center>
+
+<p class ="fs-3 text-center" style="color:white;">
+The "main" method is where we put all of the code that we want to run when we start the program. Notice that it is inside of the "HelloWorld" class, with the method here everything inside its body (shown by its curly braces {}) will run when we run the "HelloWorld" .java file.  
+
+<br><br>
+
+Also notice that the "main" method has a body of its own and its own slightly different declaration statement. With this method we have the same "public" word as our class as well as a "static" and "void". All of which we will discuss later on in the course. Then we declare the method name "main" and put (String[] args) in parentheses after it. "String[] args" is a placeholder for information that we want to pass to the program and is necessary for the "main" method to run. But we will discuss what it actually means later on in the course. For now just remember to include it! 
+
+
+<br><br>
+
+If you want more information on the main method check out the sources below!
+</p>
+
+</div>
+
+<div class="container">
+	<div class="row">
+    	<div class="col text-center" style="color:white; margin:5px">What does main really mean? (Video)</div>
+        <div class="col text-center" style="color:white; margin:5px">Explaining main (Article)</div>
+	</div>
+	<div class="row">
+    	<div class="col">
+    		<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#ytModal1" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/youtubeLogo_ccexpress.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="ytModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe style="height:100%;width:100%; margin:0px;" src="https://www.youtube.com/embed/P-_Nzi_mCRo" title="Youtube Video" 					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    	</div>
+        <div class="col">
+    		<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#wikiModal" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/javaLogo.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="wikiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe style="height:100%;width:100%; margin:0px;" src="https://www.journaldev.com/12552/public-static-void-main-string-args-java-main-method" title="Wiki Article" 					frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+</div>
+
+
+
+
+<!--These breaks make it so that the bottom nav bar doesnt cover anything. DO NOT REMOVE-->
+<p>
+<br>
+<br>
+<br>
+<br>
+</p>
+
+<nav class="navbar navbar-dark bg-dark fixed-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand"></a>
+    <form class="d-flex">
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson1">Previous</a>
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson1p3">Next</a>
+    </form>
+  </div>
+</nav>
+</body>
