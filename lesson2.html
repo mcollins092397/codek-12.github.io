@@ -26,7 +26,7 @@
 
 <body>
 
-
+<body style = "background-color:#222220;">
 
 <!-- Adds a navigation bar to the page-->
 
@@ -63,6 +63,145 @@
     </ul>
       </div>
 </nav>
-<p> this is the lesson 2 page </p>
 
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px;">
+
+	<div class = "row">
+    	    <p class ="fs-3 text-center" style="color:white;">Lesson 2, Part 1</p>
+            <p class ="fs-4 text-center" style="color:white;">Variables</p>
+    </div>
+</div>
+
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px; ">
+<div class = "row">
+<p class ="fs-5 text-center" style="color:white;">
+Lets say that we are making a program that we are making a program that takes in a students name, age, and email. How would we store these pieces of information in our program?
+
+<br><br>
+
+We can store information and data like this in "variables". Variables are named locations in our systems memory that allow us to access and store information so that it can be used in our programs!
+
+In java there are eight primitive data types that we can use to store data in variables. These types are as follows:<br><br>
+byte<br>
+short<br>
+int<br>
+long<br>
+float<br>
+double<br>
+boolean<br>
+char<br>
+There is also String (but this is not technically a primitive data type)<br>
+Throughout this course we will ignore the data types byte, short, long, and float. But we will begin covering what the others mean and how they are used in code below!
+</p>
+
+</div>
+<div class = "row">
+	<div class = "col">
+<p class ="fs-5" style="color:white;">
+We can declare a variable using the format below:
+</p>
+<image src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/declareVariable.PNG?raw=true" style="width:200px; height:100px;">
+
+<p class ="fs-5" style="color:white;">
+The top declaration is how you declare a variable with its default value and the bottom declaration is how to declare a variable with a preset value.<br><br>
+
+The first data type that we will cover is "int" <br>
+"int" is short for integer and is used to represent whole numbers (...-3,-2,-1,0,1,2,3...). int has a default value of 0 so if not assigned that is what it will hold. <br>
+In the compiler to the right we can see how an int is declared as well as how it can be printed <br><br>
+
+The next data type that we will cover is "double"<br>
+"double" functions very similarly to int. It is used to represent numbers with decimal, but can still be assigned whole numbers and negative numbers. double has a default value of 0.0 <br><br>
+
+The next data type that we will cover is "boolean"<br>
+"boolean" is used to represent true and false. These are the only two values that a boolean can hold. The default value of a boolean is false<br><br>
+
+The next data type is "char"<br> char stands for character and is used to represent a single character. This character can be a letter, number, or symbol. The default value for char is '\u0000' which represents a null character<br><br>
+
+The final data type that we will cover is "String"<br>
+"String" is used to represent a group of characters. It is commonly used to store words and sentences. The default value for a String is null<br><br>
+
+</p>
+
+</div>
+<div class = "col-md-7">
+<iframe frameborder="0" width="100%" height="770px" scrolling = "no" src="https://www.online-java.com/o8RjQWnGMH"></iframe>
+</div>
+</div>
+<div class = "row">
+<p class ="fs-5 text-center" style="color:white;">
+If you would like to learn more about variables check out the sources below!
+</p>
+</div>
+</div>
+
+<div class="container">
+	<div class="row">
+    	<div class="col text-center" style="color:white; margin:5px">Variables explained (Video)</div>
+        <div class="col text-center" style="color:white; margin:5px">Variables (Java Documentation)</div>
+	</div>
+	<div class="row">
+    	<div class="col">
+    		<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#ytModal1" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/youtubeLogo_ccexpress.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="ytModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <iframe style="height:100%;width:100%; margin:0px;" src="https://www.youtube.com/embed/N8LDSryePuc" title="Youtube Video" 					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    	</div>
+        <div class="col">
+    		<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#wikiModal" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/javaLogo.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="wikiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe style="height:100%;width:100%; margin:0px;" src="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html" title="Wiki Article" 					frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+</div>
+
+
+<!--These breaks make it so that the bottom nav bar doesnt cover anything. DO NOT REMOVE-->
+<p>
+<br>
+<br>
+<br>
+<br>
+</p>
+
+<nav class="navbar navbar-dark bg-dark fixed-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand"></a>
+    <form class="d-flex">
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson_menu">Previous</a>
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson2p2">Next</a>
+    </form>
+  </div>
+</nav>
 </body>
