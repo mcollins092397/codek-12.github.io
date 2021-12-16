@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Bootstrap 5 with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<style>
+		.fakeimg {
+		height: 200px;
+		background: #aaa;
+		}
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+
+<body>
+
+<body style = "background-color:#222220;">
+
+<!-- Adds a navigation bar to the page-->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<!-- This adds the site home button -->
+<div class="container-fluid">
+    <a class="navbar-brand" href="index">Code K-12</a>
+
+
+
+  
+ <ul class="navbar-nav">
+
+<!-- Example split danger button -->
+<div class="btn-group">
+  <a href= "lesson_menu" type="button" class="btn btn-info btn-outline-dark ">Lessons</a>
+  <button type="button" class="btn btn-info btn-outline-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="lesson1">Lesson 1</a></li>
+    <li><a class="dropdown-item" href="lesson2">Lesson 2</a></li>
+    <li><a class="dropdown-item" href="lesson3">Lesson 3</a></li>
+  </ul>
+</div>
+
+
+      <li class="nav-item">
+        <a type="button" class="btn btn-info btn-outline-dark" href="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a type ="button" class="btn btn-info btn-outline-dark" href="#">Sign in</a>
+      </li>
+    </ul>
+      </div>
+</nav>
+
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px;">
+
+	<div class = "row">
+    	    <p class ="fs-3 text-center" style="color:white;">Lesson 2, Part 2</p>
+            <p class ="fs-4 text-center" style="color:white;">User input</p>
+    </div>
+</div>
+
+<div class = "container-fluid" style="border:3px; border-style:solid; color:#0Dcaf0; border-radius:20px; margin:10px; ">
+<div class = "row">
+<p class ="fs-5 text-center" style="color:white;">
+Declaring variables is a useful skill to know but the true power of variables comes with their ability to hold input from the user, do calculations, operations, and print information that can change
+
+<br><br>
+
+Lets start by figuring out how we can take in input from the user and store it in variables.
+<br><br>
+</p>
+
+</div>
+<div class = "row">
+	<div class = "col">
+<p class ="fs-5" style="color:white;">
+In order to take in input we first need to import the scanner class. <br>
+In order to do this we put the following code at the very top of our program file. Even above our class
+</p>
+<image src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/scanner.PNG?raw=true" style="width:200px; height:50px;">
+
+<p class ="fs-5" style="color:white;">
+The code to the right <br><br>
+
+The first data type that we will cover is "int" <br>
+"int" is short for integer and is used to represent whole numbers (...-3,-2,-1,0,1,2,3...). int has a default value of 0 so if not assigned that is what it will hold. <br>
+In the compiler to the right we can see how an int is declared as well as how it can be printed <br><br>
+
+The next data type that we will cover is "double"<br>
+"double" functions very similarly to int. It is used to represent numbers with decimal, but can still be assigned whole numbers and negative numbers. double has a default value of 0.0 <br><br>
+
+The next data type that we will cover is "boolean"<br>
+"boolean" is used to represent true and false. These are the only two values that a boolean can hold. The default value of a boolean is false<br><br>
+
+The next data type is "char"<br> char stands for character and is used to represent a single character. This character can be a letter, number, or symbol. The default value for char is '\u0000' which represents a null character<br><br>
+
+The final data type that we will cover is "String"<br>
+"String" is used to represent a group of characters. It is commonly used to store words and sentences. The default value for a String is null<br><br>
+
+</p>
+
+</div>
+<div class = "col-md-7">
+<iframe frameborder="0" width="100%" height="970px" scrolling = "no" src="https://www.online-java.com/o8RjQWnGMH"></iframe>
+</div>
+</div>
+<div class = "row">
+<p class ="fs-5 text-center" style="color:white;">
+If you would like to learn more about variables check out the sources below!
+</p>
+</div>
+</div>
+
+<div class="container">
+	<div class="row">
+    	<div class="col text-center" style="color:white; margin:5px">Variables explained (Video)</div>
+        <div class="col text-center" style="color:white; margin:5px">Variables (Java Documentation)</div>
+	</div>
+	<div class="row">
+    	<div class="col">
+    		<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#ytModal1" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/youtubeLogo_ccexpress.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="ytModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <iframe style="height:100%;width:100%; margin:0px;" src="https://www.youtube.com/embed/N8LDSryePuc" title="Youtube Video" 					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    	</div>
+        <div class="col">
+    		<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#wikiModal" style="height:100%;width:100%;">
+  <img src="https://github.com/mcollins092397/mcollins092397.github.io/blob/main/pics/javaLogo.png?raw=true" />
+</button>
+<!-- Modal -->
+<div class="modal fade" id="wikiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="height:90%">
+    <div class="modal-content" style="height:90%">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe style="height:100%;width:100%; margin:0px;" src="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html" title="Wiki Article" 					frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+</div>
+
+
+<!--These breaks make it so that the bottom nav bar doesnt cover anything. DO NOT REMOVE-->
+<p>
+<br>
+<br>
+<br>
+<br>
+</p>
+
+<nav class="navbar navbar-dark bg-dark fixed-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand"></a>
+    <form class="d-flex">
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson2">Previous</a>
+      <a type ="button" class="btn btn-info btn-outline-dark" href="lesson2p3">Next</a>
+    </form>
+  </div>
+</nav>
+</body>
